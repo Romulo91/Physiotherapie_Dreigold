@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--var-cl-background);
+  .info__container {
+    height: 800px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h1 {
+      font-size: 2rem;
+    }
+    div {
+      width: 70%;
+    }
+  }
+  .img__Container {
+    flex: 0.7;
+    background-image: url(../../img/info_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+}

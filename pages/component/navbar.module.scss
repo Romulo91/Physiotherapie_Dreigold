@@ -1,0 +1,35 @@
+.navbody {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+  text-align: center;
+  box-shadow: var(--var-shadow-s);
+  height: 90px;
+  h2 {
+    color: var(--var-cl-pr);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
+    align-items: center;
+    a {
+      margin: 0 1rem;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .appointment {
+      background-color: var(--var-cl-pr);
+      color: #fff;
+      padding: 1rem;
+      width: fit-content;
+      font-size: 19px !important;
+      border-radius: 15px;
+    }
+  }
+}
