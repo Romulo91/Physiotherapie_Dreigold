@@ -1,0 +1,39 @@
+.odd__item {
+  margin: 2rem;
+}
+
+.leistungs__container {
+  background-color: var(--var-cl-background);
+  padding: 2rem;
+  background-color: var(--var-cl-pr);
+  opacity: 0.8;
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 4rem 0;
+    font-size: 72px;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    section {
+      flex: 30%;
+      // new display
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      div {
+        width: 350px;
+        border-radius: 20px;
+        border: 4px solid black;
+        margin: 1rem;
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

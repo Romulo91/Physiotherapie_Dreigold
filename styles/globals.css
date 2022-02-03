@@ -19,6 +19,7 @@ a {
   /* colors */
   --var-cl-pr: #d9a917;
   --var-cl-background: #fffef1;
+  --var-cl-background-sec: #fffce3;
 
   /* shadows */
   --var-shadow-s: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
