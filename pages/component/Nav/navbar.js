@@ -12,7 +12,6 @@ export default function Navbar() {
       top: location - 90,
       behavior: "smooth",
     });
-    console.log(target, location);
   };
   return (
     <div className={navstyles.navbody}>

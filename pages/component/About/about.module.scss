@@ -1,8 +1,9 @@
 .about__container {
   display: flex;
   flex-direction: row;
+  height: 100vh;
   section {
-    height: 800px;
+    height: 93%;
   }
 }
 

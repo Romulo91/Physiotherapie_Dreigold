@@ -25,3 +25,14 @@ a {
   --var-shadow-s: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+
+/* Observer */
+.section--show {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
