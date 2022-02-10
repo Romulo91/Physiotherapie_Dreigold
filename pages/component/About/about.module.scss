@@ -1,0 +1,28 @@
+.about__container {
+  display: flex;
+  flex-direction: row;
+  section {
+    height: 800px;
+  }
+}
+
+.about_text {
+  background-color: var(--var-cl-pr);
+  flex: 60%;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+  h2 {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+}
+
+.img__container {
+  flex: 40%;
+  background-image: url("../../../img/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

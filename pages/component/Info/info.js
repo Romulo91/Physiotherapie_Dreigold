@@ -1,9 +1,9 @@
-import styles from "../component/info.module.scss";
+import styles from "../Info/info.module.scss";
 
 export default function Info() {
   return (
     <div className={styles.container}>
-      <section className={styles.info__container}>
+      <section id="home">
         <div>
           <>
             <h1> Ihre Gesundheit liegt uns am Herzen </h1>

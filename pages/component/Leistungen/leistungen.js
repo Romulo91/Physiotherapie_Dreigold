@@ -2,7 +2,7 @@ import styles from "./leistungen.module.scss";
 
 export default function Leistungen() {
   return (
-    <div className={styles.leistungs__container}>
+    <div className={styles.leistungs__container} id="leistungen">
       <h1>Leistungen</h1>
       <main>
         <section>

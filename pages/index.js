@@ -1,13 +1,17 @@
 import Head from "next/head";
-import Navbar from "../pages/component/navbar";
-import Info from "../pages/component/info";
-import Leistungen from "../pages/component/leistungen";
+import Navbar from "../pages/component/Nav/navbar";
+import Info from "../pages/component/Info/info";
+import Leistungen from "../pages/component/Leistungen/leistungen";
+import About from "../pages/component/About/about";
+import Maps from "../pages/component/Maps/maps";
+import Footer from "../pages/component/Footer/footer";
 
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <div className={styles.container}>
         <Head>
           <title>Physiotherapie Dreigold</title>
@@ -17,16 +21,16 @@ export default function Home() {
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
-        <Navbar />
         <main className={styles.main}>
           <h1>Deine Besserung beginnt hier</h1>
           <a className={styles}> Termin vereinbaren</a>
         </main>
       </div>
       <Info />
-      <Leistungen />
-      <footer className={styles.footer}>footer</footer>
+      <Leistungen className="leistungen" id="leistungen" />
+      <About className="about" id="about" />
+      <Maps />
+      <Footer />
     </div>
   );
 }

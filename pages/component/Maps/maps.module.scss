@@ -1,0 +1,30 @@
+.location__Container {
+  height: 650px;
+  background-color: var(--var-cl-background);
+  display: flex;
+  .visit {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+    h2 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    p {
+      margin: 2rem 0;
+    }
+    a {
+      background-color: var(--var-cl-pr);
+      color: #fff;
+      padding: 1rem;
+      width: fit-content;
+      font-size: 19px !important;
+      border-radius: 15px;
+    }
+  }
+  .map__Container {
+    flex: 60%;
+  }
+}
